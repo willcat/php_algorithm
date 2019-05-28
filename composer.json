@@ -1,0 +1,12 @@
+{
+    "name": "administrator/php_algorithm",
+    "description": "practise algorithm",
+    "require": {
+        "codeception/codeception": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "algorithm\\" : "./"
+        }
+    }
+}
